@@ -1,0 +1,22 @@
+--cpu Cortex-M3
+".\objects\main.o"
+".\objects\globals.o"
+".\objects\isr.o"
+".\objects\print.o"
+".\objects\set.o"
+".\objects\eat-death.o"
+".\objects\adc_landtiger.o"
+".\objects\buttons_landtiger.o"
+".\objects\glcd_landtiger.o"
+".\objects\led_landtiger.o"
+".\objects\joystick_mcb1700.o"
+"C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Lib\ARM\arm_cortexM3l_math.lib"
+".\objects\ssp_lpc17xx.o"
+".\objects\gpdma_lpc17xx.o"
+".\objects\gpio_lpc17xx.o"
+".\objects\pin_lpc17xx.o"
+".\objects\startup_lpc17xx.o"
+".\objects\system_lpc17xx.o"
+--ro-base 0x00000000 --entry 0x00000000 --rw-base 0x10000000 --entry Reset_Handler --first __Vectors --strict --summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\Listings\Landtiger_test1.map" -o .\Objects\Landtiger_test1.axf
